@@ -13,16 +13,32 @@ tap "homebrew/services"
 tap "rcmdnk/file"
 brew "composer"
 brew "htop"
-# Allows us to install App Store apps
-brew "mas"
 brew "neofetch"
 brew "youtube-dl"
 brew "rcmdnk/file/brew-file"
 
+# Allows us to install App Store apps
+brew "mas"
+
+##
+# Version control
+#
+##
+
+# Git is a free and open source distributed version control system.
+brew 'git'
+
+##
+# File synchronization
+#
+##
+
+# Dropbox file sharing.
+cask 'dropbox'
+
 ##
 # Browsers
 #
-# We prefer Firefox because it's open source.
 ##
 
 # Firefox web browser
@@ -43,8 +59,6 @@ cask 'google-chrome-canary'
 ##
 # Chat
 #
-# We favor Riot.im because it is free open source,
-# and also works closely with Mozilla foundation.
 ##
 
 # Discord chat
@@ -62,26 +76,6 @@ cask 'slack'
 
 # VSCode - Microsoft Visual Studio Code, VS Code
 brew 'visual-studio-code'
-
-##
-# Version control
-#
-# We prefer `git` version control. We also work on a wide
-# range of systems, so we also sometimes use CVS, HG, and SVN.
-##
-
-# Git is a free and open source distributed version control system.
-brew 'git'
-
-##
-# File synchronization
-#
-# We use `rsync` for our systems administration,
-# and a variety of web-based services for file sharing.
-##
-
-# Dropbox file sharing.
-cask 'dropbox'
 
 ##
 # Multimedia
@@ -118,8 +112,12 @@ brew 'python'
 brew 'python3'
 
 # Apple apps
+mas "Xcode", id: 497799835
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
+mas "Messenger", id: 1480068668
+mas "HP Smart", id: 1474276998
+
+# Do not seem to work
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
-mas "Xcode", id: 497799835
