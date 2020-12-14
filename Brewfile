@@ -75,7 +75,7 @@ cask 'slack'
 ##
 
 # VSCode - Microsoft Visual Studio Code, VS Code
-brew 'visual-studio-code'
+cask 'visual-studio-code'
 
 ##
 # Multimedia
