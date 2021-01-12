@@ -92,6 +92,10 @@ brew 'ffmpeg'
 brew 'ffmpeg2theora'
 brew 'ffmpegthumbnailer'
 
+# sass
+
+brew 'sass/sass/sass'
+
 # alfredapp.com
 cask 'alfred'
 
