@@ -33,8 +33,8 @@ brew 'git'
 #
 ##
 
-# Dropbox file sharing.
 cask 'dropbox'
+cask 'cyberduck'
 
 ##
 # Browsers
