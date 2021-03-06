@@ -33,7 +33,6 @@ brew 'git'
 #
 ##
 
-cask 'dropbox'
 cask 'cyberduck'
 
 ##
@@ -116,7 +115,6 @@ brew 'python'
 brew 'python3'
 
 # Apple apps
-mas "Xcode", id: 497799835
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas "Messenger", id: 1480068668
