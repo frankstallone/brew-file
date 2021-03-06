@@ -15,7 +15,6 @@ brew "composer"
 brew "htop"
 brew "neofetch"
 brew "youtube-dl"
-brew "rcmdnk/file/brew-file"
 
 # Allows us to install App Store apps
 brew "mas"
@@ -106,9 +105,6 @@ cask 'spotify'
 
 # teamviewer.com
 cask 'teamviewer'
-
-# Node.js is a JavaScript platform for building fast, scalable network app.
-brew 'node'
 
 # Python programming language, esp. for systems scripting.
 brew 'python'
