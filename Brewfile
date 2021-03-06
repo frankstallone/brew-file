@@ -110,6 +110,9 @@ cask 'teamviewer'
 brew 'python'
 brew 'python3'
 
+# PHP programming language (will probably install 8)
+brew 'php'
+
 # Apple apps
 mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
